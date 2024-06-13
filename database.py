@@ -21,7 +21,7 @@ def load_data():
 
 def directifclicked(cin):
     st.session_state['cin'] = cin
-    st.session_state.button_clicked = True
+    st.session_state.button_clicked = False
     
     
     
